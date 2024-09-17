@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+  font-family: sans-serif;
+}
+
+p {
+  color: chocolate;
+  font-family: "Courier New";
+}
+
+form {
+  color: darkslategrey;
+  font-family: "Courier New";
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
