@@ -18,6 +18,6 @@ form {
 }
 
 body {
-  background-image: url(background.jpg);
+  background-image: url("../imgs/background.jpg");
   background-size: cover;
 }
