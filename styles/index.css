@@ -1,23 +1,55 @@
-* {
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../imgs/background.jpg");
+  background-size: cover;
+  font-family: "Courier New";
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px black;
 }
 
 h1 {
   color: brown;
-  font-family: sans-serif;
 }
 
-p {
-  color: chocolate;
-  font-family: "Courier New";
+form,
+.form-input {
+  display: grid;
 }
 
 form {
-  color: darkslategrey;
-  font-family: "Courier New";
+  gap: 15px;
 }
 
-body {
-  background-image: url("../imgs/background.jpg");
-  background-size: cover;
+.form-group {
+  gap: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+button:hover {
+  background-color: brown;
+  transform: scale(1.1);
 }

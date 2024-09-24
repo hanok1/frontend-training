@@ -6,37 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Form task</title>
   <link rel="icon" type="image/x-icon" href="icons/favicon.ico" />
-  <!-- why ?v=1 is required even after stoping the server-->
   <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
-  <h1>Enter your details</h1>
-  <hr />
-  <p>Please enter your details as requested below</p>
-  <form>
-    <label for="name">Full Name</label>
-    <br />
-    <input type="text" id="name" placeholder="eg: Hanok Jacob" required />
-    <br />
-    <br />
-    <label for="email">EmailId</label>
-    <br />
-    <input type="email" id="email" placeholder="eg: hanok@gmail.com" required />
-    <br />
-    <br />
-    <label for="phNo">Phone Number</label>
-    <br />
-    <input type="text" id="phNo" placeholder="eg: 1234567890" />
-    <br />
-    <br />
-    <label for="address"> Address</label>
-    <br />
-    <textarea name="address" id="address"></textarea>
-    <br />
-    <br />
-    <input type="submit" />
-  </form>
+  <div class="form-container">
+    <h1>Enter your details</h1>
+    <form>
+      <div class="form-input">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="eg: Hanok Jacob" required />
+      </div>
+
+      <div class="form-input">
+        <label for="email">Email Id</label>
+        <input type="email" id="email" placeholder="eg: hanok@gmail.com" required />
+      </div>
+
+      <div class="form-input">
+        <label for="phNo">Phone Number</label>
+        <input type="number" id="phNo" placeholder="eg: 1234567890" />
+      </div>
+
+      <div class="form-input">
+        <label for="address">Address</label>
+        <textarea name="address" id="address" placeholder="Your address"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </body>
 
 </html>
