@@ -1,57 +1,23 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-image: url("../imgs/background.jpg");
-  background-size: cover;
-  font-family: "Courier New";
-  font-weight: bold;
-}
-
-.form-container {
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px black;
-}
-
-h1 {
-  color: brown;
-  padding: 20px;
-  font-size: larger;
-}
-
-form,
-.form-input {
-  display: grid;
-}
-
-form {
-  gap: 15px;
-}
-
-.form-group {
-  gap: 5px;
-}
-
-input,
-textarea {
+.inline {
+  display: inline;
+  background-color: #d8aef7; /* Light purple */
   padding: 10px;
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-
-button {
-  padding: 10px;
-  background-color: black;
+  margin: 5px;
   color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: sans-serif;
 }
 
-button:hover {
-  background-color: brown;
-  transform: scale(1.1);
+.block {
+  display: block;
+  background-color: #8a2be2; /* Dark purple */
+  padding: 10px;
+  margin: 5px 0; /* Vertical spacing */
+  color: white;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: #7b68ee; /* Medium purple */
+  padding: 10px;
+  margin: 5px;
+  color: white;
 }
