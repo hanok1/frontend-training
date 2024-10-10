@@ -5,6 +5,7 @@
   padding: 20px;
   margin: 20px;
   text-align: center;
+  font-size: large;
 }
 
 .inline-block-div-1,
@@ -15,6 +16,7 @@
   padding: 20px;
   margin: 20px;
   text-align: center;
+  font-size: large;
 }
 
 .inline-block-div-1 {
@@ -30,6 +32,7 @@
   margin: 30px 30px 30px 20px;
   text-align: left;
   height: 30px;
+  font-size: large;
 }
 
 .block-div-2 {
