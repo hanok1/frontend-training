@@ -1,23 +1,37 @@
-.inline {
+.inline-div {
   display: inline;
-  background-color: #d8aef7; /* Light purple */
-  padding: 10px;
-  margin: 5px;
+  background-color: pink;
   color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
 }
 
-.block {
-  display: block;
-  background-color: #8a2be2; /* Dark purple */
-  padding: 10px;
-  margin: 5px 0; /* Vertical spacing */
-  color: white;
-}
-
-.inline-block {
+.inline-block-div-1,
+.inline-block-div-2 {
   display: inline-block;
-  background-color: #7b68ee; /* Medium purple */
-  padding: 10px;
-  margin: 5px;
+  background-color: violet;
   color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.inline-block-div-1 {
+  height: 50px;
+}
+
+.block-div-1,
+.block-div-2 {
+  display: block;
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  margin: 30px 30px 30px 20px;
+  text-align: left;
+  height: 30px;
+}
+
+.block-div-2 {
+  width: 50%;
 }
